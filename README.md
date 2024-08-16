@@ -55,3 +55,7 @@ grpcurl -plaintext -protoset-out mesh.protoset 192.168.100.1:9200 describe Space
 ```bash
 grpcurl -plaintext -protoset-out router.protoset 192.168.1.1:9000 describe SpaceX.API.Device.Device
 ```
+
+## Disclaimer
+
+This repository is not affiliated with, endorsed by, or in any way connected to Starlink, SpaceX Inc., or any of their subsidiaries. All content provided here is either independently developed or obtained from publicly available sources on the Internet and is for educational and informational purposes only.
