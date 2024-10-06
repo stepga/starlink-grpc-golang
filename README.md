@@ -29,6 +29,10 @@ grpcurl -plaintext -d {\"get_status\":{}} 192.168.100.1:9200 SpaceX.API.Device.D
 ```
 
 ```bash
+grpcurl -plaintext -d {\"dish_get_obstruction_map\":{}} 192.168.100.1:9200 SpaceX.API.Device.Device/Handle
+```
+
+```bash
 grpcurl -plaintext -d {\"get_diagnostics\":{}} 192.168.100.1:9200 SpaceX.API.Device.Device/Handle
 ```
 
@@ -43,6 +47,8 @@ grpcurl -plaintext -d {\"get_device_info\":{}} 192.168.100.1:9200 SpaceX.API.Dev
 ```bash
 grpcurl -plaintext -d {\"get_history\":{}} 192.168.100.1:9200 SpaceX.API.Device.Device/Handle
 ```
+
+Dump the compiled protoset binary files for `dish`, `mesh` and `router`. In this repository, we only focused on the `dish` protoset.
 
 ```bash
 grpcurl -plaintext -protoset-out dish.protoset 192.168.100.1:9200 describe SpaceX.API.Device.Device
