@@ -2,7 +2,14 @@
 
 + 2024.10.15.mr44519 / fb2c588e-a2de-4b97-bafb-9a64e2155f11.uterm_manifest.release
 
-https://github.com/clarkzjw/starlink-grpc-golang/commit/e0709af10c8e9aaaf547417350cf31f6cef560f2
+https://github.com/clarkzjw/starlink-grpc-golang/commit/75ec2a3115cdde9c91441578c79cc3783370f659
+
+```
+[Wifi]
+
+1. `VsnsVin` in `PoeStats`
+2. `Alerts` in `WifiClient`
+```
 
 + 2024.10.13.mr44429 / 6cc6306a-c5a6-4f78-934f-21f218dbbf47.uterm_manifest.release
 
