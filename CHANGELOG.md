@@ -1,5 +1,11 @@
 # CHANGELOG
 
++ 2024.10.20.cr44742 / d3c7648a-a112-4b7c-aefc-86d465e5377f.uterm_manifest.release
+
+When compared with `2024.10.15.mr44519`, it seems it lacks the fields new in `2024.10.15.mr44519`.
+
+Looks almost the same as `2024.10.13.mr44429`.
+
 + 2024.10.15.mr44519 / fb2c588e-a2de-4b97-bafb-9a64e2155f11.uterm_manifest.release
 
 https://github.com/clarkzjw/starlink-grpc-golang/commit/75ec2a3115cdde9c91441578c79cc3783370f659
