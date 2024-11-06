@@ -1,5 +1,9 @@
 # CHANGELOG
 
++ 2024.10.30.mr45184.1 / 61290a56-7774-44a7-8520-197b2a6b524c.uterm_manifest.release
+
+A bunch of WiFi updates since `2024.10.20.cr44742`.
+
 + 2024.10.20.cr44742 / d3c7648a-a112-4b7c-aefc-86d465e5377f.uterm_manifest.release
 
 When compared with `2024.10.15.mr44519`, it seems it lacks the fields new in `2024.10.15.mr44519`.
