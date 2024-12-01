@@ -1,5 +1,54 @@
 # CHANGELOG
 
++ 2024.11.21.mr46196.1 / 98664e73-3b73-4b2f-a1a4-b0946a502e66.uterm_manifest.release
+
+[Dish] Add `AlignmentStats` to `DishGetDiagnosticsResponse`
+
+```
+grpcurl -plaintext -d {\"get_diagnostics\":{}} 192.168.100.1:9200 SpaceX.API.Device.Device/Handle
+{
+  "apiVersion": "28",
+  "dishGetDiagnostics": {
+    "id": "ut01000000-00000000-[...]",
+    "hardwareVersion": "rev3_proto2",
+    "softwareVersion": "2024.11.21.mr46196.1",
+    "utcOffsetS": -28799,
+    "alerts": {
+
+    },
+    "disablementCode": "OKAY",
+    "hardwareSelfTest": "PASSED",
+    "location": {
+      "enabled": true,
+      "latitude": [...],
+      "longitude": [...],
+      "altitudeMeters": [...],
+      "uncertaintyMetersValid": true,
+      "uncertaintyMeters": 5
+    },
+    "alignmentStats": {
+
+    }
+  }
+}
+```
+
+Although it's empty while `get_status` shows the correct `alignmentStats`:
+
+```
+[...]
+    "alignmentStats": {
+      "tiltAngleDeg": 27.518227,
+      "boresightAzimuthDeg": -1.3881348,
+      "boresightElevationDeg": 62.642834,
+      "attitudeEstimationState": "FILTER_CONVERGED",
+      "attitudeUncertaintyDeg": 0.48990536,
+      "desiredBoresightAzimuthDeg": 0.019135801,
+      "desiredBoresightElevationDeg": 62.995728
+    },
+[...]
+```
+
 + 2024.10.30.mr45184.1 / 61290a56-7774-44a7-8520-197b2a6b524c.uterm_manifest.release
 
 A bunch of WiFi updates since `2024.10.20.cr44742`.
