@@ -1,5 +1,9 @@
 # CHANGELOG
 
++ 2024.11.25.mr46348.1 / abebf685-9154-4f4b-8fbf-19471ac93420.uterm_manifest.release
+
+[Dish] Add `Stowed` status to `get_diagnostics`.
+
 + 2024.11.21.mr46196.1 / 98664e73-3b73-4b2f-a1a4-b0946a502e66.uterm_manifest.release
 
 [Dish] Add `AlignmentStats` to `DishGetDiagnosticsResponse`
