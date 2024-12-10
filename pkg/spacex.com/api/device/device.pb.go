@@ -11,8 +11,8 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
 	reflect "reflect"
-	service "github.com/clarkzjw/starlink-grpc-golang/pkg/spacex.com/api/device/services/unlock/service"
-	status "github.com/clarkzjw/starlink-grpc-golang/pkg/spacex.com/api/status"
+	service "github.com/stepga/starlink-grpc-golang/pkg/spacex.com/api/device/services/unlock/service"
+	status "github.com/stepga/starlink-grpc-golang/pkg/spacex.com/api/status"
 	sync "sync"
 )
 

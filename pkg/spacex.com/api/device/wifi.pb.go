@@ -11,7 +11,7 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
 	reflect "reflect"
-	time "github.com/clarkzjw/starlink-grpc-golang/pkg/spacex.com/api/telemetron/public/common/time"
+	time "github.com/stepga/starlink-grpc-golang/pkg/spacex.com/api/telemetron/public/common/time"
 	sync "sync"
 )
 
